@@ -3,7 +3,7 @@
 https://arxiv.org/pdf/2505.13447 （Mean Flows for One-step Generative Modeling）
 
 #### 前情提要：
-何凯明团队发的一篇文章，使用meanflow算法，可以将原先的多步生成变为单步生成，极大地改变了当前 diffusion，flow matching 图像生成算法的性能现状
+何凯明团队发的一篇文章，使用meanflow算法，可以将原先的多步生成变为单步生成，极大地改变了当前 diffusion，flow matching 图像生成算法的现状
 
 而且从原理方面，将所有图像生成问题概括到了 drifting field 问题，可解释性很强，原理透明简单，这一类模型之后也被称为“drifting model”
 
