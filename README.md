@@ -1,6 +1,6 @@
 #### 复现论文 
 
-https://ieeexplore.ieee.org/document/9252123 （Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification）
+https://ieeexplore.ieee.org/document/9252123 （Self-Supervised Pretraining of Transformers for Satellite Image Time Series）
 
 #### 前情提要：
 遥感时序的一篇文章，主要做了两件事
