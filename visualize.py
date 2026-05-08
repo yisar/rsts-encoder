@@ -128,7 +128,6 @@ if __name__ == "__main__":
     CSV_FILE = "data.csv"
     MODEL_FILE = "sits_bert.pth"
     
-    # 如果你想训练，取消下面这一行的注释：
     # train_sits_bert(CSV_FILE) 
     
     # 运行可视化
