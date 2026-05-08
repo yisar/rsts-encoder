@@ -41,7 +41,6 @@ class SITSBERT(nn.Module):
         
         if return_encoded:
             # 这里的池化操作将 (Batch, 6, 128) 变为 (Batch, 128)
-            # 这就是你想要的“编码后的向量”
             return torch.mean(encoded, dim=1)
         
         return self.output_layer(encoded)
