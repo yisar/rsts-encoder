@@ -54,7 +54,7 @@ class SITSDatasetCSV(Dataset):
         for _, row in df.iterrows():
             sample_time_series = []
             for t in range(1, num_timesteps + 1):
-                # 核心修复：确保每个时间步抓取正确的 R, G, B, NIR
+                # 确保每个时间步抓取正确的 R, G, B, NIR
                 pixel_at_t = [row[f'r{t}'], row[f'g{t}'], row[f'b{t}'], row[f'nir{t}']]
                 sample_time_series.append(pixel_at_t)
             all_samples.append(sample_time_series)
